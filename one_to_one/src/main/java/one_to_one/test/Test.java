@@ -25,7 +25,7 @@ public class Test {
 		
 		manager.getTransaction().begin();
 		
-		manager.persist(studentCard);
+		//manager.persist(studentCard);
 		manager.persist(student);
 		
 		manager.getTransaction().commit();
