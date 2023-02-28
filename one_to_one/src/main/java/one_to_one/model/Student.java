@@ -18,7 +18,7 @@ public class Student implements Serializable{
 	@Temporal(TemporalType.DATE)
 	private Date birthDate;
 	
-	@OneToOne
+	@OneToOne(cascade = CascadeType.PERSIST)
 	private StudentCard studentCard;
 	
 	
